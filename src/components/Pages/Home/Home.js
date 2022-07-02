@@ -75,7 +75,7 @@ function Home({
 											size="lg"
 											className="answer"
 											id="answerButton"
-											key={answer.index}
+											key={answer}
 											onClick={onClickAnswer}
 										>
 											{answer}

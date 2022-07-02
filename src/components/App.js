@@ -22,7 +22,6 @@ function App() {
 		fetch("https://phase-2-project-backend.herokuapp.com/trivia")
 			.then((r) => r.json())
 			.then((data) => {
-        console.log("filterCategoryUseEffect: ", filterCategory)
 				const filterCat = data.filter((question) => {
 					if (filterCategory === "all") {
 						return question
@@ -109,9 +108,8 @@ function App() {
 							answerOptions={answerOptions}
 							changeCategory={changeCategory}
               changeDifficulty={changeDifficulty}
-              key={trivia.id}
 						/>
-					} />
+					}/>
 				<Route exact path="/add-a-question" element={<AddAQuestion onAddAQuestion={handleNewQuestion} />} />
         <Route exact path="/wall" element={<Wall />} />
 			</Routes>
