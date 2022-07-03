@@ -87,9 +87,9 @@ function Home({
 					</div>
 				</div>
 				<div className="d-grid col-6 mx-auto">
-					<a className="btn btn-primary" onClick={onClickButton} href="#">
+					<button className="btn btn-primary" onClick={onClickButton}>
 						New Question
-					</a>
+					</button>
 				</div>
 			</div>
 		</div>
