@@ -11,7 +11,6 @@ function App() {
 	//useState: random trivia pulled from questions useState
 	const [trivia, setTrivia] = useState([])
 	console.log("random trivia: ", trivia)
-  
 	//answer options pulled from trivia useState
 	const [answerOptions, setAnswerOptions] = useState([])
 	// console.log("answerOptions: ", answerOptions)
