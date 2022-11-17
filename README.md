@@ -2,9 +2,13 @@
 
 I'm using the heroku backend AND a db.json in json-server-template > db to be ran as well 
 
+## Backend Git
+
+https://github.com/baikjs87/backend-phase-2-project
+
 ## Heroku
 
-https://phase-2-project-backend.herokuapp.com/
+https://backend-phase-2-project.herokuapp.com/
 
 ===========================================================================
 
